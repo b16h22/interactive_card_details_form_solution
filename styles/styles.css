@@ -214,8 +214,42 @@ input::-webkit-inner-spin-button {
 @media screen and (max-width:68em) {
 
   body {
+    background-position: -30%;
+  }
+
+  .cards-layout {
+    margin-right: 1rem;
+    position: relative;
+    width: 55%;
+  }
+  
+  .card-details-layout {
+    width: 55%;
+    margin-left: 1rem;
+  }
+
+  .card-front {
+    width: 20rem;
+    height: 9.18rem;
+  }
+  
+  .card-back {
+    width: 20rem;
+    height: 9.18rem;
+  }
+
+  #card-number {
+    font-size: 1.25rem;
+  }
+
+}
+
+@media screen and (max-width:48em) {
+
+  body {
     background-image: url(../images/bg-main-mobile.png);
     background-size: contain;
+    background-position: unset;
     background-repeat: no-repeat;
   }
 
