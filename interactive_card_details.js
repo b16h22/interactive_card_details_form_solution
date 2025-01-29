@@ -35,7 +35,6 @@ inputCardNumber.addEventListener('input', function (event) {
   }
 });
 
-inputCardNumber.onkeyup = function() {}
 inputValidityMonth.oninput= function() {this.value = this.value.slice(0, this.maxLength)};
 inputValidityYear.oninput= function() {this.value = this.value.slice(0, this.maxLength)};
 inputCvc.oninput= function() {this.value = this.value.slice(0, this.maxLength)};
