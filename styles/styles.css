@@ -215,6 +215,7 @@ input::-webkit-inner-spin-button {
 
   body {
     background-position: -30%;
+    background-repeat: repeat-y;
   }
 
   .cards-layout {
