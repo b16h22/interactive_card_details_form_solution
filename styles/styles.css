@@ -214,8 +214,7 @@ input::-webkit-inner-spin-button {
 @media screen and (max-width:68em) {
 
   body {
-    background-position: -30%;
-    background-repeat: repeat-y;
+    background-size: auto 100%;
   }
 
   .cards-layout {
